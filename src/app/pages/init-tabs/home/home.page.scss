@@ -1,0 +1,105 @@
+
+/////////////////////////////////// MENÚ LATERAL
+
+//HEADER DEL MENU LATERAL
+
+.logoMenu{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ion-img{
+
+        height: 250px;
+        width: 250px;
+    }
+}
+
+//CONTENIDO MENU LATERAL
+
+
+.listaCategoriasMenu{
+
+    ion-item{
+        ion-label{
+            margin-left: 10px;
+        }
+    }
+}
+
+////////////////////////HOME.HTML//////////////////////////
+
+
+//HEADER DEL HOME.HTML//
+
+
+
+.headerContent{
+
+    ion-toolbar{
+        
+        ion-icon{
+  
+            margin-right: 0px;
+        }
+
+
+
+        .textoHeader{     
+
+            margin-top: 0.7rem;
+            margin-left: 1rem;
+            
+        }
+    }
+
+}
+
+//CONTENIDO
+
+.banner{
+
+    swiper-container{
+
+        
+
+        swiper-slide{ 
+
+            
+           
+        
+            ion-img{
+
+                
+
+             
+            }
+        }
+
+    }
+     
+}
+
+.list-title{
+
+    font-weight: 700;
+    color: #515151;
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+    margin-top: 1.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
